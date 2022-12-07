@@ -5,4 +5,4 @@ pcentered = int(input("enter a valid postcode: "))
 if pcentered in postcodes.keys():
     print("postcode:",pcentered, "-",postcodes[pcentered], "\n")
 else:
-    print("invald postal number")
+    print("invalid postal number")
